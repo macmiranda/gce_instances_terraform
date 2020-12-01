@@ -1,0 +1,8 @@
+region = "europe-west3"
+num_instances = 3
+project_id="funny-name-123456"
+subnetwork="projects/funny-name-123456/regions/europe-west3/subnetworks/default"
+service_account = {
+  email  = "terraform-svc@funny-name-123456.iam.gserviceaccount.com"
+  scopes = ["cloud-platform"]
+}
